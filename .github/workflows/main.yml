@@ -44,6 +44,8 @@ jobs:
         run: |
           arduino-cli lib install M5CardPuter
           arduino-cli lib install M5Unified
+          arduino-cli lib install TFT_eSPI
+
           
       - name: Create build directory
         run: mkdir -p build
