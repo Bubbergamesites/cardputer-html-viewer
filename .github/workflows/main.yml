@@ -44,8 +44,7 @@ jobs:
         run: |
           arduino-cli lib install M5CardPuter
           arduino-cli lib install M5Unified
-          arduino-cli lib install M5Stack-Avatar
-
+          
       - name: Create build directory
         run: mkdir -p build
 
