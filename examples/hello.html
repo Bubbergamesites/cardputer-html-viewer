@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello CardPuter</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+        }
+        h1 {
+            color: #00ff88;
+            text-align: center;
+        }
+        .container {
+            border: 2px solid #00ff88;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #00ff88;
+            color: #1a1a2e;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CardPuter HTML Viewer</h1>
+    <div class="container">
+        <p>This is a simple HTML page displayed on your CardPuter ADV device.</p>
+        <button onclick="showAlert()">Click Me!</button>
+    </div>
+    <script>
+        function showAlert() {
+            console.log("Button clicked!");
+        }
+    </script>
+</body>
+</html>
